@@ -14,3 +14,6 @@
 .theme-color{
     color: var(--theme-color);
 }
+.btn_1:hover{
+    background-color: green;
+}
