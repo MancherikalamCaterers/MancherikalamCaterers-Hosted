@@ -1,3 +1,6 @@
+:root{
+    --theme-color: #8a5628
+}
 .header-parent{
     display: flex;
     justify-content: space-between;
@@ -7,4 +10,7 @@
 #carousel-home-2 .owl-carousel .owl-slide {
   height:100vh !important;
   position:relative
+}
+.theme-color{
+    color: var(--theme-color);
 }
