@@ -20,5 +20,16 @@
 .popup-form{
     width: 500px;
     height: 609px;
-    background-color: red;
+}
+.form-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 15px;
+}
+.form-logo>img{
+    width: 250px;
+}
+.enquiry-form{
+    padding: 20px 30px;
 }
