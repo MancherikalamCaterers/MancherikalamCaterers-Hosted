@@ -17,3 +17,8 @@
 .btn_1:hover{
     background-color: green;
 }
+.popup-form{
+    width: 500px;
+    height: 609px;
+    background-color: red;
+}
