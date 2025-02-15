@@ -1,6 +1,3 @@
-http://www.ansonika.com/foores/index.html
-
-
 https://www.veekayvees.com/
 
 Mancherikalam caterers
@@ -12,3 +9,10 @@ Menu & Packages – Displaying menu options, pricing, and different package styl
 Gallery – High-quality images of dishes, event setups, and catering arrangements.
 Testimonials – Featuring customer reviews to build trust.
 Contact Page – Address, phone number, email, and a contact form.
+
+
+we assure
+pincode
+licenced caters.
+
+

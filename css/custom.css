@@ -18,8 +18,8 @@
     background-color: green;
 }
 .popup-form{
-    width: 500px;
-    height: 609px;
+    max-width: 500px;
+    max-height: 609px;
 }
 .form-logo{
     display: flex;
