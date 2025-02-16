@@ -401,6 +401,38 @@
 		</div>
 		<!-- service end  -->
 
+		<!-- counter section start  -->
+		<section class="counter-section">
+			<div class="container">
+				<div class="main_title center mb-5">
+					<h2 style="color: #fff !important; padding-bottom: 15px;">Our Achievements</h2>
+					<p style="font-size: medium;">With decades of experience, we have catered to countless events, delighting guests with exceptional flavors and top-notch service.</p>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="counter-box">
+							<h3 class="counter-number" data-count="35">0 <span>+</span></h3>
+							<p>Years of Experience</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="counter-box">
+							<h3 class="counter-number" data-count="100000">0+</h3>
+							<p>Happy Clients</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="counter-box">
+							<h3 class="counter-number" data-count="25">0+</h3>
+							<p>Team Members</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- counter section end  -->
+
+
 		<!-- gallery start  -->
 		<div class="bg_gray">
 	        <div class="container margin_60_40">
@@ -670,6 +702,27 @@
     <!-- SPECIFIC SCRIPTS (wizard form) -->
     <script src="js/wizard/wizard_scripts.min.js"></script>
     <script src="js/wizard/wizard_func.js"></script>
+	<script>
+		$(document).ready(function () {
+        $('.counter-number').each(function () {
+            var $this = $(this),
+                countTo = $this.attr('data-count');
+            $({ countNum: $this.text() }).animate({
+                countNum: countTo
+            },
+            {
+                duration: 3000,
+                easing: 'swing',
+                step: function () {
+                    $this.text(Math.floor(this.countNum) + "+");
+                },
+                complete: function () {
+                    $this.text(this.countNum + "+");
+                }
+            });
+        });
+    });
+	</script>
 
 </body>
 </html>
