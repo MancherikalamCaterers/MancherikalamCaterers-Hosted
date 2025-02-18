@@ -57,3 +57,12 @@
     color: #fff;
     
 }
+.we-assure-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.we-assure-image>img{
+    width: 200px;
+    border-radius: 35%;
+}
