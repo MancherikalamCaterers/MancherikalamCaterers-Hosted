@@ -15,4 +15,9 @@ we assure
 pincode
 licenced caters.
 
+content="summary_large_image"
+
+content="https://www.yourwebsite.com"
+content="https://www.yourwebsite.com/path-to-your-image.jpg"
+
 
