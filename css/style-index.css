@@ -2194,7 +2194,7 @@ ul#banners_grid li a.img_container .short_info p {
     font-size: 18px;
     font-size: 1.125rem;
     padding: 15px;
-    color: #222
+    color: #700;
 }
 
 .tabs_menu .tab-content .card .card-body {
@@ -3383,7 +3383,8 @@ iframe.map_contact {
 }
 
 .nav-tabs .nav-link {
-    border: none
+    border: none;
+    color: #700;
 }
 
 .nav-tabs .nav-link.disabled {
