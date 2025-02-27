@@ -4,46 +4,39 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>mancherikalamcaterers.com/</loc>
+  <loc>https://mancherikalamcaterers.com/</loc>
   <lastmod>2025-02-27T07:31:19+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>mancherikalamcaterers.com/index.html</loc>
+  <loc>https://mancherikalamcaterers.com/about.html</loc>
   <lastmod>2025-02-27T07:31:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>mancherikalamcaterers.com/about.html</loc>
+  <loc>https://mancherikalamcaterers.com/service.html</loc>
   <lastmod>2025-02-27T07:31:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>mancherikalamcaterers.com/service.html</loc>
+  <loc>https://mancherikalamcaterers.com/menu.html</loc>
   <lastmod>2025-02-27T07:31:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>mancherikalamcaterers.com/menu.html</loc>
+  <loc>https://mancherikalamcaterers.com/gallery.html</loc>
   <lastmod>2025-02-27T07:31:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>mancherikalamcaterers.com/gallery.html</loc>
+  <loc>https://mancherikalamcaterers.com/testimonials.html</loc>
   <lastmod>2025-02-27T07:31:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>mancherikalamcaterers.com/testimonials.html</loc>
-  <lastmod>2025-02-27T07:31:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>mancherikalamcaterers.com/contacts.html</loc>
+  <loc>https://mancherikalamcaterers.com/contacts.html</loc>
   <lastmod>2025-02-27T07:31:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
