@@ -1,207 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="page-title">Site Error</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    body {
-      background-color: #202124;
-      color: #e8eaed;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 20px;
-    }
 
-    .container {
-      max-width: 560px;
-      width: 100%;
-    }
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="favicon.png" >
+    
 
-    .sad-tab-icon {
-      width: 36px;
-      height: 48px;
-      border: 2px solid #9aa0a6;
-      border-radius: 2px;
-      position: relative;
-      margin-bottom: 30px;
-    }
+    <!-- GOOGLE WEB FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    .sad-tab-icon::before {
-      content: '';
-      position: absolute;
-      top: 6px;
-      right: 4px;
-      width: 2px;
-      height: 2px;
-      background: #9aa0a6;
-      box-shadow: -14px 0 #9aa0a6;
-    }
+    <!-- BASE CSS -->
+    <link href="css/vendors.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-    .sad-tab-icon::after {
-      content: '';
-      position: absolute;
-      top: 14px;
-      left: 7px;
-      width: 14px;
-      height: 6px;
-      border-top: 2px solid #9aa0a6;
-      border-radius: 50% 50% 0 0;
-    }
-
-    h1 {
-      font-size: 22px;
-      font-weight: 500;
-      color: #e8eaed;
-      margin-bottom: 16px;
-    }
-
-    .message {
-      font-size: 15px;
-      color: #9aa0a6;
-      line-height: 1.5;
-      margin-bottom: 16px;
-    }
-
-    .message strong {
-      color: #e8eaed;
-    }
-
-    .try-section {
-      font-size: 15px;
-      color: #9aa0a6;
-      margin-bottom: 24px;
-    }
-
-    .try-section p {
-      margin-bottom: 8px;
-    }
-
-    .try-section ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-
-    .try-section li {
-      margin-bottom: 6px;
-    }
-
-    .try-section a {
-      color: #8ab4f8;
-      text-decoration: none;
-    }
-
-    .try-section a:hover {
-      text-decoration: underline;
-    }
-
-    .error-code {
-      font-size: 12px;
-      color: #9aa0a6;
-      text-transform: uppercase;
-      margin-bottom: 48px;
-    }
-
-    .buttons {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .btn-details {
-      background: transparent;
-      border: 1px solid #5f6368;
-      color: #8ab4f8;
-      padding: 8px 16px;
-      border-radius: 100px;
-      font-size: 13px;
-      cursor: pointer;
-    }
-
-    .btn-details:hover {
-      background: rgba(138, 180, 248, 0.04);
-    }
-
-    .btn-reload {
-      background-color: #8ab4f8;
-      border: none;
-      color: #202124;
-      padding: 8px 20px;
-      border-radius: 100px;
-      font-size: 13px;
-      font-weight: 500;
-      cursor: pointer;
-    }
-
-    .btn-reload:hover {
-      background-color: #9bbbe9;
-    }
-  </style>
+    <!-- SPECIFIC CSS -->
+    <link href="coming_soon_assets/coming-soon.css" rel="stylesheet">
+    
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
 </head>
+
 <body>
 
-  <div class="container">
-    <div class="sad-tab-icon"></div>
+    <div class="container-fluid">
+        <div class="row vh-100 justify-content-center">
+            <div class="col-lg-8">
+                <div id="wrapper">
+                <div class="row countdown">
+                    <div class="col-md-12">
+                        <img src="images/new-logo-full-white.png" width="140" height="35" alt="">
+                        <h1>Oops! Page Not Found</h1>
+                        <p class="lead">The page you’re looking for doesn’t exist or has been moved.</p>
+                        <a href="/" class="btn_1 btn_scroll">Go To Home</a>
+                    </div>
+                </div><!-- End Countdown-->
+            </div>
+            </div>
+        </div>
+    </div><!-- End Container-->
     
-    <h1>This site can’t be reached</h1>
-    
-    <div class="message">
-      <strong id="domain-name">example.com</strong>’s server IP address could not be found.
-    </div>
 
-    <div class="try-section">
-      <p>Try:</p>
-      <ul>
-        <li>Checking the connection</li>
-        <li><a href="#">Checking the proxy, firewall, and DNS configuration</a></li>
-        <li><a href="#">Running Connectivity Diagnostics</a></li>
-      </ul>
-    </div>
+    <div id="slides">
+        <ul class="slides-container">
+            <li><img src="coming_soon_assets/slide_1.jpg" alt="Image"></li>
+            <li><img src="coming_soon_assets/slide_2.jpg" alt="Image"></li>
+            <li><img src="coming_soon_assets/slide_3.jpg" alt="Image"></li>
+        </ul>
+    </div><!-- End background slider -->
 
-    <div class="error-code">ERR_NAME_NOT_RESOLVED</div>
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.min.js"></script>
 
-    <div class="buttons">
-      <button class="btn-details" id="detailsBtn">Details</button>
-      <button class="btn-reload" id="reloadBtn">Reload</button>
-    </div>
-  </div>
+    <!-- SPECIFIC SCRIPTS -->
+    <script src="coming_soon_assets/jquery.superslides.min.js"></script>
+    <script src="coming_soon_assets/coming_soon_func.js"></script>
 
-  <script>
-    // Extract domain dynamically
-    function getDynamicDomain() {
-      const urlParams = new URLSearchParams(window.location.search);
-      
-      // Option 1: Pass custom domain via URL query parameter (e.g. ?domain=mysite.com)
-      if (urlParams.has('domain')) {
-        return urlParams.get('domain');
-      }
-      
-      // Option 2: Fallback to current website hostname (or default fallback if local)
-      return window.location.hostname || "example.com";
-    }
-
-    // Set dynamic values on page load
-    const currentDomain = getDynamicDomain();
-    document.getElementById('domain-name').textContent = currentDomain;
-    document.getElementById('page-title').textContent = currentDomain;
-
-    // Interactive buttons
-    document.getElementById('reloadBtn').addEventListener('click', () => {
-      window.location.reload();
-    });
-
-    document.getElementById('detailsBtn').addEventListener('click', () => {
-      alert(`Error details for ${currentDomain}: ERR_NAME_NOT_RESOLVED`);
-    });
-  </script>
 </body>
+
 </html>
